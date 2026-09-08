@@ -25,8 +25,8 @@ const divide = (a, b) => a / b
 ```
 
 ## Projects:
-* **RoundTableZoo-Flutter** (https://github.com/KsArt-IT/RoundTableZoo-Flutter)
-* **HabitCurrent-Flutter** (https://github.com/KsArt-IT/HabitCurrent-Flutter)
+* [**RoundTableZoo-Flutter**](https://github.com/KsArt-IT/RoundTableZoo-Flutter)
+* [**HabitCurrent-Flutter**](https://github.com/KsArt-IT/HabitCurrent-Flutter)
 
 ## Experience:
 * **Codevia.com - Flutter developer** 07.2025 - 08.2026
