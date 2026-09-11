@@ -1,10 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML, CSS &amp; Git Basics</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicons/favicon.svg" />
+    <link rel="icon" type="image/png" href="./images/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="./images/favicons/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="./images/favicons/apple-touch-icon.png" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code-example" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="profile">
+        <div class="photo">
+          <img src="./images/content/profile_photo.png" alt="Profile photo" />
+        </div>
+        <div class="name-position">
+          <div class="name">
+            <h1>Artur Burdin</h1>
+          </div>
+          <div class="position">Full-Stack JavaScript developer</div>
+          <div class="summary">
+            <p>
+              Flutter developer with production team experience and personal pet projects. AI is part of my everyday workflow — from refactoring and code review to full
+              spec-driven development cycles with an AI agent. I try to keep up with the times: rather than just using AI tools, I build my own solutions on top of them (a
+              multi-agent AI system called "Companion"). Going forward I'm developing in two directions at once: going deeper into mobile development, and picking up full-stack
+              JavaScript/TypeScript in parallel (RS School), so I can take on tasks on the backend as well as the client side.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="sidebar">
+          <div class="contact" id="contact">
+            <h2>Contact</h2>
+          </div>
+          <div class="projects" id="projects">
+            <h2>Projects</h2>
+          </div>
+          <div class="skills" id="skills">
+            <h2>Skills</h2>
+          </div>
+          <div class="code-example" id="code-example">
+            <h2>Code example</h2>
+          </div>
+          <div class="education" id="education">
+            <h2>Education</h2>
+          </div>
+          <div class="languages" id="languages">
+            <h2>Languages</h2>
+          </div>
+        </div>
+        <div class="content">
+          <div class="experience" id="experience">
+            <h2>Experience</h2>
+          </div>
+          <div class="courses" id="courses">
+            <h2>Courses</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <a class="github-logo" href="https://github.com/KsArT-IT" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" width="32" height="32" alt="GitHub" />
+      </a>
+      <div class="copy">&copy; 2026</div>
+      <a class="rs-logo" href="https://rs.school/ru/courses/javascript" target="_blank">
+        <img src="./images/logo/rs-school-logo.svg" width="100" alt="RS School" />
+      </a>
+    </footer>
+  </body>
 </html>
