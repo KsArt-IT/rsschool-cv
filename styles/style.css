@@ -167,8 +167,8 @@ ol {
 .sidebar {
   display: flex;
   flex-direction: column;
+  gap: 10px;
   width: var(--size-sidebar);
-  height: 3000px;
   padding: 20px;
   background-color: var(--color-bg-sidebar);
   color: var(--color-text);
@@ -177,6 +177,7 @@ ol {
 
 .sidebar ul,
 .sidebar ol,
+.sidebar a:not(:hover),
 .sidebar p {
   color: var(--color-text-secondary);
 }
@@ -192,6 +193,20 @@ ol {
   color: var(--color-text-secondary);
 }
 
+.experience,
+.projects,
+.contact,
+.skills,
+.code-example,
+.education,
+.courses,
+.languages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
 .experience h2,
 .projects h2,
 .contact h2,
@@ -201,4 +216,19 @@ ol {
 .courses h2,
 .languages h2 {
   margin-bottom: 20px;
+  border-bottom: 1px solid var(--color-text);
+}
+
+.experience a,
+.projects a,
+.contact a,
+.skills a,
+.code-example a,
+.education a,
+.courses a,
+.languages a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 }
