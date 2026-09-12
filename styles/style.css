@@ -87,7 +87,7 @@ nav {
 }
 
 .nav-link:hover {
-  color: var(--color-primary);
+  color: var(--color-footer);
 }
 
 main {
@@ -217,12 +217,15 @@ a:hover {
   border-bottom: 1px solid var(--color-text);
 }
 
-.experience h2 {
+.experience h2,
+.courses h2 {
   margin-bottom: 0;
 }
 
 .experience h3,
-.experience h4 {
+.experience h4,
+.courses h3,
+.courses h4 {
   margin-bottom: 4px;
 }
 
