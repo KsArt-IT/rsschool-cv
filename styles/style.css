@@ -11,6 +11,7 @@
   --color-secondary: #1A1A1A;
   --color-bg: #e0e0e0;
   --color-bg-profile: #323b42;
+  --color-bg-code: #A9A9A9;
   --color-bg-sidebar: #C0C0C0;
   --color-bg-content: #fdfdfd;
   --color-text: #1A1A1A;
@@ -231,4 +232,15 @@ a:hover {
 
 .skills ul li {
   margin-left: 20px;
+}
+
+.code-example-wrapper {
+  font-size: 0.875em;
+  border-radius: 5%;
+  background-color: var(--color-bg-code);
+  border: 1px solid var(--color-text-white);
+  padding: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
