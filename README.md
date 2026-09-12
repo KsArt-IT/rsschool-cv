@@ -1,4 +1,4 @@
 # rsschool-cv
 
-## [Markdown & Git](https://KsArt-IT.github.io/rsschool-cv/cv)
-## [HTML, CSS & Git Basics](https://KsArt-IT.github.io/rsschool-cv/)
+## [Markdown](https://KsArt-IT.github.io/rsschool-cv/cv)
+## [HTML, CSS](https://KsArt-IT.github.io/rsschool-cv/)
