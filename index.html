@@ -1,10 +1,367 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML, CSS &amp; Git Basics</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicons/favicon.svg" />
+    <link rel="icon" type="image/png" href="./images/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="./images/favicons/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="./images/favicons/apple-touch-icon.png" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#code-example" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="profile">
+        <div class="photo">
+          <img src="./images/content/profile_photo.png" alt="Profile photo" />
+        </div>
+        <div class="name-position">
+          <div class="name">
+            <h1>Artur Burdin</h1>
+          </div>
+          <div class="position">Full-Stack JavaScript developer</div>
+          <div class="summary" id="summary">
+            <p>
+              Flutter developer with production team experience and personal pet projects. AI is part of my everyday workflow — from refactoring and code review to full spec-driven
+              development cycles with an AI agent. I try to keep up with the times: rather than just using AI tools, I build my own solutions on top of them (a multi-agent AI
+              system called "Companion"). Going forward I'm developing in two directions at once: going deeper into mobile development, and picking up full-stack
+              JavaScript/TypeScript in parallel (RS School), so I can take on tasks on the backend as well as the client side.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="main-content">
+        <div class="sidebar">
+          <section class="contact" id="contact">
+            <h2>Contact</h2>
+            <ul>
+              <li>
+                <a href="mailto:ksart.it@gmail.com">
+                  <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/mail.svg" width="24" height="24" alt="Email" />
+                  ksart.it@gmail.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.google.com/maps/place/%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.9945914,36.2858247,11z/data=!3m1!4b1!4m6!3m5!1s0x4127a09f63ab0f8b:0x2d4c18681aa4be0a!8m2!3d50.0020127!4d36.3073994!16zL20vMDgyc3k5?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D"
+                >
+                  <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/map-pin.svg" width="24" height="24" alt="Location" />
+                  Ukraine, Kharkiv
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/ksart-it/" target="_blank">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" width="24" height="24" alt="LinkedIn" />
+                  KsArT-IT
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/KsArT-IT" target="_blank">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" width="24" height="24" alt="GitHub" />
+                  KsArT-IT
+                </a>
+              </li>
+              <li>
+                <a href="https://telegram.me/KsArT_IT" target="_blank">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/telegram.svg" width="24" height="24" alt="Telegram" />
+                  @KsArT_IT
+                </a>
+              </li>
+              <li>
+                <a href="https://discord.com/users/765825950511529996" target="_blank">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/discord.svg" width="24" height="24" alt="Discord" />
+                  KsArT_IT
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <ul>
+              <li>
+                <a href="https://github.com/KsArt-IT/RoundTableZoo-Flutter" target="_blank">
+                  <img src="./images/logo/table-logo.png" width="24" height="24" alt="RoundTableZoo project logo" />
+                  RoundTableZoo-Flutter
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/KsArt-IT/TimeLogger-Flutter" target="_blank">
+                  <img src="./images/logo/pomodoro-logo.png" width="24" height="24" alt="TimeLogger-Flutter project logo" />
+                  TimeLogger-Flutter
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/KsArt-IT/HabitCurrent-Flutter" target="_blank">
+                  <img src="./images/logo/habits-logo.png" width="24" height="24" alt="HabitCurrent-Flutter project logo" />
+                  HabitCurrent-Flutter
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="code-example" id="code-example">
+            <h2>Code example</h2>
+            <div class="code-example-wrapper">
+              <pre>
+const multiply = (a, b) => a * b
+const sum = (a, b) => a + b
+const divide = (a, b) => a / b
+
+console.log(multiply(3, 2))
+console.log(sum(1, 2))
+console.log(divide(6, 3))</pre
+              >
+            </div>
+          </section>
+          <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>Web: HTML5, CSS3</li>
+              <li>Flutter</li>
+              <li>iOS</li>
+              <li>Android</li>
+              <li>Clean Architecture</li>
+              <li>Version Control Systems</li>
+            </ul>
+          </section>
+          <section class="languages" id="languages">
+            <h2>Languages</h2>
+            <ul>
+              <li>English - A2 &rarr; B1</li>
+              <li>Ukrainian - Native</li>
+              <li>Russian - Native</li>
+            </ul>
+          </section>
+          <section class="education" id="education">
+            <h2>Education</h2>
+            <ul>
+              <li>
+                <h3>Kharkiv National University of Economics</h3>
+                <p>Master's, Public Administration Management</p>
+              </li>
+              <li>
+                <h3>National Aerospace University</h3>
+                <p>Aircraft Engineering, Mechanical Engineer</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="content">
+          <section class="experience" id="experience">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-icon">💼</div>
+                <div class="timeline-body">
+                  <h2>Experience</h2>
+                </div>
+              </div>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>CodeVia</h3>
+                    <div>07.2025 - 07.2026</div>
+                  </div>
+                  <h4>Flutter Developer</h4>
+                  <p>Team: 3 Flutter developers, 1 backend developer, 1 QA engineer.</p>
+                  <p>Stack: Dart, Flutter, Firebase, BLoC, Riverpod, REST API, Drift, SQLite.</p>
+                  <p>
+                    Contributed to 10 applications: built one entirely from scratch (published on the App Store and Google Play), took one from vibe-coded state to release through
+                    refactoring, co-developed two with the team, and handled fixes and new features on the rest.
+                  </p>
+                  <p>In the final months of the project — active use of AI for refactoring, always with result review and control.</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>VitaTracker</h3>
+                    <div>06.2023 - 01.2024</div>
+                  </div>
+                  <h4>Android Developer</h4>
+                  <p>Team: 2 Android developers, 1 web developer, 1 backend developer, 2 QA engineer.</p>
+                  <p>Stack: Jetpack Compose, Kotlin, Coroutines, Flow, Room, Dagger Hilt, Retrofit2, Clean Architecture, Clean Code, SOLID, DRY.</p>
+                  <p>Consolidated duplicated code from 3-4 places in the app into reusable solutions, implemented new features, and optimized performance.</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>Cargofy</h3>
+                    <div>12.2021 - 04.2022</div>
+                  </div>
+                  <h4>Android Developer</h4>
+                  <p>Team: 2 Android developers, 1 web developer, 1 backend developer, 1 QA engineer.</p>
+                  <p>Stack: View, Kotlin, Coroutines, Flow, Dagger, Retrofit2, Clean Architecture, Clean Code, SOLID.</p>
+                  <p>Logistics App - Maintained an Android app (orders, trip statuses) and shipped new features.</p>
+                  <p>First experience with remote team workflows: Slack, Jira, Meet.</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>Food Manufacturing</h3>
+                    <div>08.2011 - 10.2021</div>
+                  </div>
+                  <h4>Software Engineer, System Administrator</h4>
+                  <p>
+                    Administered infrastructure of 150+ PCs and laptops and ~100 pieces of office equipment: Windows servers (AD, DNS, VPN, RDS, DHCP), virtualization (Hyper-V,
+                    VMware), networking (Mikrotik, Ubiquiti, VLAN), mail servers and gateways, backups, and end-user support.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="courses" id="courses">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-icon">🎓</div>
+                <div class="timeline-body">
+                  <h2>Courses</h2>
+                </div>
+              </div>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>RS School</h3>
+                    <div>09.2026 - 04.2027 (in progress)</div>
+                  </div>
+                  <h4>Full-Stack JavaScript Developer</h4>
+                  <p>Stack: HTML, CSS, JS, TS, React, Node.js.</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>Online course</h3>
+                    <div>01.2025 - 06.2025</div>
+                  </div>
+                  <h4>Flutter Developer</h4>
+                  <p>Stack: Dart, Flutter, Firebase, BLoC, Riverpod, Provider, REST API, Drift, SQLite.</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>Ш++ IT-School</h3>
+                    <div>05.2024 - 01.2025</div>
+                  </div>
+                  <h4>iOS Developer</h4>
+                  <p>Stack: Swift, SwiftUI, UIKit, SwiftData, SPM.</p>
+                  <a href="https://diploma.programming.org.ua/en/d/4Qp1jOgb967VBZmPPamvJl2nDWAGMNaL" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/scroll.svg" width="24" height="24" alt="Diploma" />
+                  </a>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>Ш++ IT-School</h3>
+                    <div>01.2024 - 04.2024</div>
+                  </div>
+                  <h4>Computer Science Basics</h4>
+                  <p>Stack: Java, Review, algorithms.</p>
+                  <a href="https://diploma.programming.org.ua/en/d/4Qp1jOgb967VBZmPPamvJl2nDWAGMNaL" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/scroll.svg" width="24" height="24" alt="Diploma" />
+                  </a>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>Android Academy</h3>
+                    <div>2023</div>
+                  </div>
+                  <h4>Android Developer</h4>
+                  <p>Stack: Jetpack Compose, Kotlin, Coroutines, Flow, Dagger Hilt.</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>RS School</h3>
+                    <div>2021</div>
+                  </div>
+                  <h4>Android Developer</h4>
+                  <p>Stack: Java, Kotlin, Dagger Hilt.</p>
+                  <a href="https://app.rs.school/certificate/8c6i5191" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/award.svg" width="24" height="24" alt="Certificate" />
+                  </a>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>Android Academy Global</h3>
+                    <div>2020</div>
+                  </div>
+                  <h4>Android Developer</h4>
+                  <p>Stack: Kotlin, Coroutines, Flow, Dagger Hilt, Navigation.</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>Skillbox.ru</h3>
+                    <div>07.2020 - 02.2022</div>
+                  </div>
+                  <h4>Profession Android Developer</h4>
+                  <p>Stack: Kotlin, View, Coroutines, Flow, Dagger, Dagger Hilt, Room, Navigation, Retrofit2.</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-body">
+                  <div class="timeline-item-header">
+                    <h3>JavaRush.com</h3>
+                    <div>06.2019 – 06.2020</div>
+                  </div>
+                  <h4>Java Developer</h4>
+                  <p>Stack: Java.</p>
+                  <a href="https://javarush.com/users/2101337" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/award.svg" width="24" height="24" alt="Certificate" />
+                  </a>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <a class="github-logo" href="https://github.com/KsArT-IT" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" width="32" height="32" alt="GitHub" />
+      </a>
+      <div class="copy">&copy; 2026</div>
+      <a class="rs-logo" href="https://rs.school/ru/courses/javascript" target="_blank">
+        <img src="./images/logo/rs-school-logo.svg" width="100" alt="RS School" />
+      </a>
+    </footer>
+  </body>
 </html>
